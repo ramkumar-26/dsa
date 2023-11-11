@@ -5,7 +5,7 @@ package org.example.general;
  * Level: Easy
  * Link :
  * Reference :
- * Tag :  #whileLoop
+ * Tag :  #whileLoop #NoOfOcurrancesOfADigit
  * */
 public class NoOfOccurancesOfADigit {
     public static void main(String[] args) {
