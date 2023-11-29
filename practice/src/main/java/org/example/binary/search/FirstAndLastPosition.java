@@ -25,9 +25,11 @@ public class FirstAndLastPosition {
 
         int[] ans = {-1, -1};
         int start = search(nums, target, true);
-        int end = search(nums, target, false);
         ans[0] = start;
-        ans[1] = end;
+        if( ans[0] != -1) {
+            int end = search(nums, target, false);
+            ans[1] = end;
+        }
         System.out.println(Arrays.toString(ans));
     }
 
