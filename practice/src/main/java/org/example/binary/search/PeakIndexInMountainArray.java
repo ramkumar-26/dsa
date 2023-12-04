@@ -13,7 +13,7 @@ package org.example.binary.search;
 /**
  * The type Peak index.
  */
-public class PeakIndex {
+public class PeakIndexInMountainArray {
     /**
      * The entry point of application.
      *
