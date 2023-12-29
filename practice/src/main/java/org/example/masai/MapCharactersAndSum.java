@@ -8,7 +8,7 @@ import java.util.Map;
  * Level: Easy
  * Link :
  * Reference : https://oj.masaischool.com/contest/4108/problem/03
- * Tag : #map #easy #char
+ * Tag : #Map #easy #Char
  * */
 public class MapCharactersAndSum {
     public static void main(String[] args) {

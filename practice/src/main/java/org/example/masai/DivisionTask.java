@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Level: Easy
  * Link :
  * Reference : https://oj.masaischool.com/contest/4079/problem/3
- * Tag : #division #Math.floor31 #tricky
+ * Tag : #Division #Math.floor31 #Tricky
  * */
 
 /**
