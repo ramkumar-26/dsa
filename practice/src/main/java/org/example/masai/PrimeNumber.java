@@ -5,7 +5,7 @@ package org.example.masai;
  * Level: Easy
  * Link :
  * Reference : https://oj.masaischool.com/contest/4049/problem/10
- * Tag : #PrimeNumber #whileloop #tricky
+ * Tag : #PrimeNumber #Whileloop #Tricky
  * */
 public class PrimeNumber {
     public static void main(String[] args) {
