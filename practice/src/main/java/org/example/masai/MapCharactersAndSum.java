@@ -3,6 +3,9 @@ package org.example.masai;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * The type Map characters and sum.
+ */
 /*
  * Date : 28th December 2023
  * Level: Easy
@@ -11,6 +14,11 @@ import java.util.Map;
  * Tag : #Map #easy #Char
  * */
 public class MapCharactersAndSum {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int N = 30;
         String str = "abc";

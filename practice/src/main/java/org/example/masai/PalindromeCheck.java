@@ -2,6 +2,9 @@ package org.example.masai;
 
 import java.util.Scanner;
 
+/**
+ * The type Palindrome check.
+ */
 /*
  * Date : 29th December 2023
  * Level: Easy
@@ -10,6 +13,11 @@ import java.util.Scanner;
  * Tag :  #easy #String #StringBuilder
  * */
 public class PalindromeCheck {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
