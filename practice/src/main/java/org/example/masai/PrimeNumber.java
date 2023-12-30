@@ -1,5 +1,8 @@
 package org.example.masai;
 
+/**
+ * The type Prime number.
+ */
 /*
  * Date : 26th December 2023
  * Level: Easy
@@ -8,6 +11,11 @@ package org.example.masai;
  * Tag : #PrimeNumber #Whileloop #Tricky
  * */
 public class PrimeNumber {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int number = 44;
         if(number < 4){
@@ -23,7 +31,13 @@ public class PrimeNumber {
         System.out.println("Prime Number!");
     }
 
-    // efficient way
+    /**
+     * Is prime boolean.
+     *
+     * @param n the n
+     * @return the boolean
+     */
+// efficient way
     boolean isPrime(int n){
         if (n <= 1) {
             return false;
