@@ -2,6 +2,7 @@ package org.example.masai;
 
 /*
  * Date : 1st January 2024
+ * Week : 1
  * Level: Easy
  * Link :
  * Reference : https://oj.masaischool.com/contest/4132/problem/1
