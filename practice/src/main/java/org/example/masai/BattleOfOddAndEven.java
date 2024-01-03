@@ -5,7 +5,7 @@ package org.example.masai;
  * Level: Easy
  * Link :
  * Reference :  https://oj.masaischool.com/contest/4111/problem/3
- * Tag : #Odd #Even #easy
+ * Tag :  #easy #Modulus
  * */
 
 /**
