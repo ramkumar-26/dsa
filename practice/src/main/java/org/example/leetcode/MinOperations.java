@@ -1,5 +1,6 @@
 package org.example.leetcode;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -52,6 +53,32 @@ public class MinOperations {
             }
         }
         return result;
+    }
+
+    /**
+     * Min operations 2 int.
+     *
+     * @param nums the nums
+     * @return the int
+     */
+    public static int minOperations2(int[] nums){
+        Arrays.sort(nums);
+        int start = 0;
+        int res = 0;
+        while(start < nums.length){
+            int end = start;
+            while(end < nums.length  && nums[start] == nums[end]){
+                end++;
+            }
+            int count = end - start;
+            if(count == 1) return -1;
+            res += count / 3;
+            res += (count % 3) / 2;
+
+            if(count%3 != 0) res++;
+            start = end;
+        }
+        return res;
     }
 }
 
