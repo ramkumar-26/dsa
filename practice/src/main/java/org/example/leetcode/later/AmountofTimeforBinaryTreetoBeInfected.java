@@ -8,7 +8,7 @@ import java.util.*;
 /*
  * Date : 10th January 2024
  * Week : 2
- * Level: Easy
+ * Level: Medium
  * Link :
  * Reference : https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/
  * Tag :  #notdone #Node
