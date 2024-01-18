@@ -1,5 +1,8 @@
 package org.example.array;
 
+/**
+ * The type Array concatenation.
+ */
 /*
  * Date : 9 November 2023
  * Level: Easy
@@ -8,10 +11,22 @@ package org.example.array;
  * Tag :
  * */
 public class ArrayConcatenation {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 5};
         getConcatenation(nums);
     }
+
+    /**
+     * Get concatenation int [ ].
+     *
+     * @param nums the nums
+     * @return the int [ ]
+     */
     public static int[] getConcatenation(int[] nums) {
         int[] ans = new int[nums.length * 2];
         int index = 0;

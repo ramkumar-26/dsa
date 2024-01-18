@@ -1,6 +1,14 @@
 package org.example.binary.search;
 
+/**
+ * The type Find the ceiling number.
+ */
 public class FindTheCeilingNumber {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 9, 14, 16, 18, 22};
         int target = 15;

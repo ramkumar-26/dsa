@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 
 
+/**
+ * The type Target indices after sorting array.
+ */
 /*
  * Date : 7th December 2023
  * Level: Medium (Leetcode : Hard)
@@ -13,11 +16,24 @@ import java.util.List;
  * Tag : #BinarySearch #slidingWindow
  * */
 public class TargetIndicesAfterSortingArray {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] nums = {1,2,5,2,3};
         int target = 2;
         System.out.println(targetIndices(nums, target));
     }
+
+    /**
+     * Target indices list.
+     *
+     * @param nums   the nums
+     * @param target the target
+     * @return the list
+     */
     public static List<Integer> targetIndices(int[] nums, int target) {
         List<Integer> out = new ArrayList<>();
         // sort
@@ -33,6 +49,14 @@ public class TargetIndicesAfterSortingArray {
         return out;
     }
 
+    /**
+     * Bs int.
+     *
+     * @param nums            the nums
+     * @param target          the target
+     * @param firstOccurrence the first occurrence
+     * @return the int
+     */
     static int bs(int[] nums, int target, boolean firstOccurrence) {
         int start = 0;
         int end = nums.length - 1;

@@ -2,6 +2,9 @@ package org.example.general;
 
 import java.util.Scanner;
 
+/**
+ * The type Fibonacci series.
+ */
 /*
  * Date : 4 November 2023
  * Level: Easy
@@ -10,6 +13,11 @@ import java.util.Scanner;
  * Tag : #recursion #fibonacci #forloop
  * */
 public class FibonacciSeries {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -27,6 +35,12 @@ public class FibonacciSeries {
         System.out.println("Recursive : " + recursive(n));
     }
 
+    /**
+     * Recursive int.
+     *
+     * @param n the n
+     * @return the int
+     */
     static int recursive(int n) {
         if (n == 0 || n == 1) return n;
         return recursive(n - 2) + recursive(n - 1);

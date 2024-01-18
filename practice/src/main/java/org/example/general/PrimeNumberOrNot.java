@@ -2,6 +2,9 @@ package org.example.general;
 
 import java.util.Scanner;
 
+/**
+ * The type Prime number or not.
+ */
 /*
  * Date : 6 November 2023
  * Level: Easy
@@ -10,6 +13,11 @@ import java.util.Scanner;
  * Tag : #primeNumber  #whileLoop
  * */
 public class PrimeNumberOrNot {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();

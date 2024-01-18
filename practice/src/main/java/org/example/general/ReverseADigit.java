@@ -1,5 +1,8 @@
 package org.example.general;
 
+/**
+ * The type Reverse a digit.
+ */
 /*
  * Date : 5 November 2023
  * Level: Easy
@@ -8,6 +11,11 @@ package org.example.general;
  * Tag : #reverseADigit #whileLoop
  * */
 public class ReverseADigit {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int n = 123456;
         int ans = 0;

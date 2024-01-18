@@ -3,11 +3,10 @@ package org.example.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+
 /**
  * The type Array to 2 d array.
  */
-
-
 /*
  * Date : 2nd January 2024
  * Week : 1
