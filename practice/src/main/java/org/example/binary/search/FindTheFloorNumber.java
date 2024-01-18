@@ -1,6 +1,14 @@
 package org.example.binary.search;
 
+/**
+ * The type Find the floor number.
+ */
 public class FindTheFloorNumber {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 9, 14, 16, 18, 22};
         int target = 7;

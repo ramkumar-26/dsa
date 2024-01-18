@@ -6,7 +6,6 @@ import java.util.List;
 /**
  * The type Find players with zeroor one losses.
  */
-
 /*
  * Date : 15th January 2024
  * Week : 3

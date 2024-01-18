@@ -1,6 +1,9 @@
 package org.example.binary.search;
 
 
+/**
+ * The type Peak element.
+ */
 /*
  * Date : 4 Dec 2023
  * Level: Easy (Leetcode : Medium)
@@ -9,10 +12,22 @@ package org.example.binary.search;
  * Tag : #BinarySearch #slidingWindow
  * */
 public class PeakElement {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] arr = {1,2,3,1};
         System.out.println(findPeakElement(arr));
     }
+
+    /**
+     * Find peak element int.
+     *
+     * @param arr the arr
+     * @return the int
+     */
     public static int findPeakElement(int[] arr) {
         int start = 0;
         int end = arr.length - 1;

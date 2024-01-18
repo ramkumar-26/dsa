@@ -2,12 +2,28 @@ package org.example.binary.search;
 
 import java.util.Arrays;
 
+/**
+ * The type Longest subsequence with limited sum.
+ */
 public class LongestSubsequenceWithLimitedSum {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[] nums = {4,5,2,1};
         int[] queries = {3, 10, 21};
         System.out.println(answerQueries(nums, queries));
     }
+
+    /**
+     * Answer queries int [ ].
+     *
+     * @param nums    the nums
+     * @param queries the queries
+     * @return the int [ ]
+     */
     public static int[] answerQueries(int[] nums, int[] queries) {
         int n = nums.length;
 
@@ -33,6 +49,13 @@ public class LongestSubsequenceWithLimitedSum {
         return ans;
     }
 
+    /**
+     * Binary search int.
+     *
+     * @param val    the val
+     * @param prefix the prefix
+     * @return the int
+     */
     public static int binarySearch(int val, int [] prefix){
         int low = 0;
         int high = prefix.length-1;

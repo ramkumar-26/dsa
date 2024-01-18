@@ -1,6 +1,14 @@
 package org.example.linear.search;
 
+/**
+ * The type Search in 2 d array.
+ */
 public class SearchIn2DArray {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         int[][] arr = {
                 {23, 4, 1},

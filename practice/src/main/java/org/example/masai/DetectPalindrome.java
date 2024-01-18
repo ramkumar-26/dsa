@@ -8,6 +8,7 @@ package org.example.masai;
  * Reference : https://oj.masaischool.com/contest/4132/problem/1
  * Tag :  #easy #String #StringBuilder #Reverse
  * */
+
 /**
  * The type Detect palindrome.
  */

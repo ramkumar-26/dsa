@@ -1,6 +1,10 @@
 package org.example.general;
 
 import java.util.Scanner;
+
+/**
+ * The type Armstrong number.
+ */
 /*
  * Date : 7 November 2023
  * Level: Easy
@@ -9,6 +13,11 @@ import java.util.Scanner;
  * Tag :  #armstrongNumber #forloop
  * */
 public class ArmstrongNumber {
+    /**
+     * The entry point of application.
+     *
+     * @param args the input arguments
+     */
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();

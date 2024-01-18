@@ -10,6 +10,7 @@ import java.util.Arrays;
  * Reference : https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/submissions/
  * Tag : #BinarySearch #sorting
  * */
+
 /**
  * The type The k weakest rows in matrix.
  */
@@ -46,8 +47,8 @@ public class TheKWeakestRowsInMatrix {
     /**
      * Bs int.
      *
-     * @param nums         the nums
-     * @param target       the target
+     * @param nums   the nums
+     * @param target the target
      * @return the int
      */
     static int bs(int[] nums, int target){
