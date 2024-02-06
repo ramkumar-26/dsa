@@ -114,7 +114,7 @@ public class FindPairGivenDifference {
     static boolean usingSortingAndWhileLoop(int[] arr, int n) {
         int i = 0, j = 1;
         while (i < arr.length && j < arr.length) {
-            if (arr[j] - arr[i] == n) {
+            if (i != j && arr[j] - arr[i] == n) {
                 return true;
             }
             if (arr[j] - arr[i] > n) {
@@ -123,6 +123,6 @@ public class FindPairGivenDifference {
                 j++;
             }
         }
-        return true;
+        return false;
     }
 }
