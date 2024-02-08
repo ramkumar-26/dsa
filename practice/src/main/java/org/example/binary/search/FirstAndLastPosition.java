@@ -10,6 +10,16 @@ import java.util.Arrays;
  * Tag : #BinarySearch
  * */
 
+/*
+ * Date : 8 February 2023
+ * Level: Easy
+ * Link :
+ * Reference : https://www.geeksforgeeks.org/problems/find-first-and-last-occurrence-of-x0849/1?page=1&category=Binary%20Search&difficulty=Easy&sortBy=submissions
+ * Tag : #BinarySearch
+ * */
+
+
+
 /**
  * The type First and last position.
  */
