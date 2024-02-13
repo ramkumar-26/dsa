@@ -5,22 +5,22 @@ package org.example.binary.search;
 /*
  * Date : 29 November 2023
  * Level: Easy (Leetcode : Medium)
- * Link :
+ * Link : https://www.geeksforgeeks.org/problems/find-the-highest-number2259/1?page=1&category=Binary%20Search&difficulty=Easy&sortBy=submissions
  * Reference : https://leetcode.com/problems/peak-index-in-a-mountain-array/submissions/
- * Tag : #BinarySearch #slidingWindow
+ * Tag : #BinarySearch
  * */
 
 /**
  * The type Peak index.
  */
-public class PeakIndexInMountainArray {
+public class    PeakIndexInMountainArray {
     /**
      * The entry point of application.
      *
      * @param args the input arguments
      */
     public static void main(String[] args) {
-            int[] arr =  {0,10,5,2};
+            int[] arr =  {1, 2, 3, 4, 5, 6, 5, 4, 3, 2, 1};
         System.out.println(peakIndexInArray(arr));
     }
 
@@ -50,5 +50,6 @@ public class PeakIndexInMountainArray {
         // start and ed are always trying to find max element in the above 2 checks
         // hence, when they are pointing to just one element that is the max
         return start; // or return end
+        //to get the element pass arr[start]
     }
 }
